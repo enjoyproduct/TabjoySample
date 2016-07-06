@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.2.0_6fc607b364ea5b047060fe0b51f909a6341f831b.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-8.1.0_9432ef0a712ad6ecccde4d23a42bcc680526f583.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-22.2.0_088934bdc403fbc49d0810a8b6a00d6e826d4b11.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-8.1.0_1cc68bf90fd42606e296427d2786eadad9553a44.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-22.2.0_02b7f1994006ef25df31e014afc4b32acb50a284.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-8.1.0_e17fc112061952d8d86195d13f22fa630fec574d.jar" />
+    </item>
+    <item
+        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0_dd3130f13a0eb694fa77f3e3dadcac01edd0b974.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-8.1.0_5852c51a66ca2ba250fde7e0e3b06fe4647894d3.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-8.1.0_3901eaf33393f338e622b902bc14e46dbbc8c2a7.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.1.0_b6abbbf10f28e72326130d4bae03314855f9ca2d.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-8.1.0_4397a738ba6c7076ed701b5dc4f349c75606c0d1.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.1.0_39f84bea405fe4fb0e8d7eb70f6b789341c08def.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-8.1.0_e6d9b64a093a7a951c0ca9b452f4b77cbba5bc56.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-8.1.0_e1c2f1e0dfb70da9a50b177be57fd73f951073e1.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-measurement-8.1.0_49b47c589d40f01b9694c0241bd830c79fc624e4.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-8.1.0_85cd53172b42898fbea72262d8aa12abb1c915d1.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-8.1.0_787669596248a0edee786ef801a119d61d750bd2.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0_4a8dc6e8035e49fe56a0759cd3308fd33bfa4c51.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-8.1.0_6ec42bbe76de434a2c5c323ebd4eb03b7564d999.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-8.1.0_056c112d8581be98bf63750c7d47f7994c861b2b.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0_3c053e58e93f26f024958489fa83f0ca86a9456f.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-8.1.0_3463665579905051c26cc09ef0f4169a98b80fb8.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-8.1.0_2e0c55c8af3ff86423b77e96b4940f6f4057fdd1.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-8.1.0_9c8fa267e643044d3fda98946b1b319915c9c219.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-8.1.0_8d441890fe63ad656e7c79411bfdf52c983577a1.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.1.0_549e00b498f41c605904287df8e785d6ac55e2e7.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\libs\tapjoyconnectlibrary.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="90e1ea39e3756fcba5a77c961f0b41f4d5d7c020">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\tapjoyconnectlibrary_1703edc61006d98ac2d834c26ccd4c8786333cd1.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-8.1.0_5462de68a4257c304f23e31335e322c680714016.jar" />
+    </item>
+    <item
+        jar="E:\Download\TapjoyEasyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="E:\Download\TapjoyEasyApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-8.1.0_c78fe6f18d8c053ed351a6d4088f0e9b0ff37717.jar" />
+    </item>
+
+</items>

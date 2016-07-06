@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutMainWrapper"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/backgroundColor"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linerLayoutTabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <Button
+            android:id="@+id/buttonMainTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab"
+            android:enabled="false"
+            android:text="Main"
+            android:textColor="@color/tabTextColor"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonEventTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab"
+            android:text="Event"
+            android:textColor="@color/buttonTextColor"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonUserTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab"
+            android:text="User"
+            android:textColor="@color/buttonTextColor"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewOutput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Tapjoy SDK not connected"
+        android:textColor="@color/buttonTextColor"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <Button
+                android:id="@+id/buttonShowOffers"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_button"
+                android:text="Show Offerwall"
+                android:textColor="@color/buttonTextColor"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/buttonGetDirectPlayVideoAd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_button"
+                android:text="Get Direct Play Video Ad"
+                android:textColor="@color/buttonTextColor"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Managed Currency" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutCurrency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="3" >
+
+                <Button
+                    android:id="@+id/buttonGetCurrency"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:text="Get"
+                    android:textColor="@color/buttonTextColor" />
+
+                <Button
+                    android:id="@+id/buttonSpendCurrency"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:text="Spend"
+                    android:textColor="@color/buttonTextColor" />
+
+                <Button
+                    android:id="@+id/buttonAwardCurrency"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:text="Award"
+                    android:textColor="@color/buttonTextColor" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Content Placements" />
+
+            <EditText
+                android:id="@+id/inputPlacementName"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:textSize="14dp"
+                android:ems="10"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="video_unit" >
+            </EditText>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutPlacement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/buttonRequestPlacement"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:text="Request"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/buttonShowPlacement"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:enabled="false"
+                    android:text="Show"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Purchase" />
+
+            <Button
+                android:id="@+id/buttonPurchase"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_button"
+                android:text="Purchase"
+                android:textColor="@color/buttonTextColor"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/buttonPurchase2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_button"
+                android:text="Purchase (Campaign)"
+                android:textColor="@color/buttonTextColor"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/buttonPurchase3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_button"
+                android:text="Purchase (with validation)"
+                android:textColor="@color/buttonTextColor"
+                android:visibility="visible" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

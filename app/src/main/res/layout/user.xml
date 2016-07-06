@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutMainWrapper"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/backgroundColor"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linerLayoutTabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <Button
+            android:id="@+id/buttonMainTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab"
+            android:text="Main"
+            android:textColor="@color/tabTextColor"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonEventTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab"
+            android:text="Event"
+            android:textColor="@color/buttonTextColor"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonUserTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab"
+            android:enabled="false"
+            android:text="User"
+            android:textColor="@color/buttonTextColor"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:id="@+id/linearLayoutUserId"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="3" >
+
+                <TextView
+                    android:id="@+id/labelUserId"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="User ID"
+                    android:textColor="@color/buttonTextColor"
+                    android:textSize="16dp"
+                    android:visibility="visible" />
+
+                <EditText
+                    android:id="@+id/inputUserId"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutUserLevel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="3" >
+
+                <TextView
+                    android:id="@+id/labelUserLevel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="User Level"
+                    android:textColor="@color/buttonTextColor"
+                    android:textSize="16dp"
+                    android:visibility="visible" />
+
+                <EditText
+                    android:id="@+id/inputUserLevel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:inputType="number"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutUserFriends"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="3" >
+
+                <TextView
+                    android:id="@+id/labelUserFriends"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="User Friends"
+                    android:textColor="@color/buttonTextColor"
+                    android:textSize="16dp"
+                    android:visibility="visible" />
+
+                <EditText
+                    android:id="@+id/inputUserFriends"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:inputType="number"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Cohort Variables"
+                android:textColor="@color/buttonTextColor"
+                android:textSize="16dp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutUserCohort"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="4" >
+
+                <Spinner
+                    android:id="@+id/spinnerCohorts"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:entries="@array/cohorts_array" />
+
+                <EditText
+                    android:id="@+id/inputCohort"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:maxLines="1"
+                    android:singleLine="true" >
+
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutSetUser"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/buttonUserInfoSet"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="Set"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/buttonUserInfoClear"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="Clear"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutUserTagsInput"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="3" >
+
+                <TextView
+                    android:id="@+id/labelUserTag"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="User Tag:"
+                    android:textColor="@color/buttonTextColor"
+                    android:textSize="16dp"
+                    android:visibility="visible" />
+
+                <EditText
+                    android:id="@+id/inputUserTag"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutUserTagsButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="3" >
+
+                <Button
+                    android:id="@+id/buttonUserTagAdd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="Add"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+                <Button
+                    android:id="@+id/buttonUserTagSubtract"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:text="Remove"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+                <Button
+                    android:id="@+id/buttonUserTagClear"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:text="Clear"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/pushNotificationEnabled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Push Notification Enabled"
+                android:textColor="@color/buttonTextColor" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutMainWrapper"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/backgroundColor"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linerLayoutTabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <Button
+            android:id="@+id/buttonMainTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab"
+            android:text="Main"
+            android:textColor="@color/tabTextColor"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonEventTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab"
+            android:enabled="false"
+            android:text="Event"
+            android:textColor="@color/buttonTextColor"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonUserTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab"
+            android:text="User"
+            android:textColor="@color/buttonTextColor"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewOutput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Status Messages"
+        android:textColor="@color/buttonTextColor"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/buttonBasic"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="Basic"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/buttonParameter1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="Param 1"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/buttonValue"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="Value"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/buttonParameter1And2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="Param 1 and 2"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/buttonParameter1WithValue1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="Param 1 with value 1"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/buttonParameter1And2WithValue1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="Param 1 and 2 with value 1"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/buttonParameter1And2WithValue1And2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="Param 1 and 2 with value 1 and 2"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/buttonParameterAll"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="All"
+                    android:textColor="@color/buttonTextColor"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

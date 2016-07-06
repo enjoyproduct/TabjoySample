@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="buttonColor">#ffba01</color>
+    <color name="disabledButtonColor">#f9dc8d</color>
+    <color name="pressedButtonColor">#dca30a</color>
+    <color name="buttonTextColor">#7e5c09</color>
+    <color name="buttonBorderColor">#cf9b1f</color>
+    <color name="backgroundColor">#f1f0ec</color>
+    
+    <color name="tabColor">#ffba01</color>
+    <color name="disabledTabColor">#f9dc8d</color>
+    <color name="pressedTabColor">#dca30a</color>
+    <color name="tabTextColor">#7e5c09</color>
+    <color name="tabBackgroundColor">#000000</color>
+    <color name="tabBorderColor">#000000</color>
+</resources>
